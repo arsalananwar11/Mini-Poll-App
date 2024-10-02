@@ -1,7 +1,7 @@
 # Mini Poll App
-The **Mini Poll App** is a simple polling web application built using the Django framework. It allows users to create, list, and vote on polls. This project serves as an introduction to Django's fundamental concepts such as views, templates, models, and forms.
+The **Mini Poll App** is a simple polling web application built using the **Django** framework as part of the **Assignment 1** of **CS-GY 6063: Software Engineering 1** course. It allows users to create, list, and vote on polls. This project serves as an introduction to Django's fundamental concepts such as views, templates, models, and forms.
 
-Link: http://my-django-env.eba-4epmscmp.us-east-1.elasticbeanstalk.com/
+Hosted Application Link: http://my-django-env.eba-4epmscmp.us-east-1.elasticbeanstalk.com/
 
 ---
 
@@ -10,7 +10,7 @@ Link: http://my-django-env.eba-4epmscmp.us-east-1.elasticbeanstalk.com/
 2. [Technologies](#technologies): Lists the technologies used to build the app.
 3. [Installation](#installation): Detailed installation steps for setting up the app locally, including creating a virtual environment and running the Django development server.
 4. [Folder Structure](#folder-structure): Explains the structure of the project, with brief descriptions of key files and directories.
-5. [Screenshots](#screenshots): Placeholders for screenshots to visually showcase the app.
+5. [App Snippets](#screenshots): Placeholders for screenshots to visually showcase the app.
 
 ---
 
