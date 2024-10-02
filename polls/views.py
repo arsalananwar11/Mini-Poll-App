@@ -4,9 +4,13 @@ from .models import Question
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from polls.models import Choice
+from django.utils import timezone
+
+# def index(request):
+#     return HttpResponse("Hello, world. You're at the polls index.")
 
 def index(request):
-    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    latest_question_list = Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
     return render(request, 'polls/index.html', context)
 
@@ -31,4 +35,3 @@ def vote(request, question_id):
         selected_choice.votes += 1
         selected_choice.save()
         return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
-
