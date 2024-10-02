@@ -109,10 +109,10 @@ mini-poll-app/
 
 ## Screenshots
 - #### Poll List Page
-    ![alt text](image.png)
+    ![alt text](static/admin/img/image.png)
 
 - #### Poll Detail and Voting Page
-    ![alt text](image-1.png)
+    ![alt text](static/admin/img/image-1.png)
 
 - #### Poll Results Page
-    ![alt text](image-2.png)
+    ![alt text](static/admin/img/image-2.png)
