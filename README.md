@@ -1,6 +1,8 @@
 # Mini Poll App
 The **Mini Poll App** is a simple polling web application built using the Django framework. It allows users to create, list, and vote on polls. This project serves as an introduction to Django's fundamental concepts such as views, templates, models, and forms.
 
+Link: http://my-django-env.eba-4epmscmp.us-east-1.elasticbeanstalk.com/
+
 ---
 
 ## Table of Contents
@@ -99,13 +101,6 @@ mini-poll-app/
 │   ├── urls.py                    # URL routing for polls app
 │   └── views.py                   # Views for rendering templates
 │
-├── mini_poll_app/                 # Main Django project folder
-│   ├── __init__.py
-│   ├── asgi.py                    # ASGI config
-│   ├── settings.py                # Project settings
-│   ├── urls.py                    # Project URL routing
-│   ├── wsgi.py                    # WSGI config
-│
 ├── db.sqlite3                     # SQLite database file
 ├── manage.py                      # Django's command-line utility
 ├── README.md                      # This README file
@@ -113,8 +108,11 @@ mini-poll-app/
 ```
 
 ## Screenshots
-Poll List Page
+- #### Poll List Page
+    ![alt text](image.png)
 
-Poll Detail and Voting Page
+- #### Poll Detail and Voting Page
+    ![alt text](image-1.png)
 
-Poll Results Page
+- #### Poll Results Page
+    ![alt text](image-2.png)
